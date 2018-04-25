@@ -10,7 +10,6 @@ class SlugTranslateHandler
     public function translate($text)
     {
 
-        return $this->pinyin($text);
 
         // 实例化 HTTP 客户端
         $http = new Client;
