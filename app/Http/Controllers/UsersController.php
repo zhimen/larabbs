@@ -15,6 +15,8 @@ class UsersController extends Controller
         $this->middleware('auth', ['except' => ['show']]);
     }
 
+
+
     //
     public function show(User $user)
     {
